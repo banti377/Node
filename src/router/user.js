@@ -26,6 +26,4 @@ router.post("/create", (req, res) => {
     });
 });
 
-hello
-
 export default router;
