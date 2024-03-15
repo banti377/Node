@@ -13,7 +13,7 @@ const userSchema = mongoose.Schema(
     userType: String,
     password: String,
     gender: String,
-    adminID: {
+    adminId: {
       type: ObjectId,
       ref: "user",
     },
